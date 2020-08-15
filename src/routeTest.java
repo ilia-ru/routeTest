@@ -1,7 +1,7 @@
 public class routeTest {
     public static void main (String[] args)
     {
-        point[] inPoint = new point[12];
+        point[] inPoint = new point[13];
         routes routesMaker = new routes();
 
         // Входные данные
@@ -16,6 +16,7 @@ public class routeTest {
         inPoint[9] = new point(9,9);
         inPoint[10] = new point(8,2);
         inPoint[11] = new point(6,2);
+        inPoint[12] = new point(9,8);
 
         System.out.println("Добрыня и Ко");
         System.out.println("Маршруты для Манхеттена");
